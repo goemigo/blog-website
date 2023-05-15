@@ -1,0 +1,11 @@
+<%- include("partials/header") -%>
+<div class="p-5 mb-4 bg-body-tertiary rounded-3">
+    <div class="container-fluid py-5">
+      <h1 class="display-5 fw-bold">Uh oh!</h1>
+      <p class="col-md-8 fs-4">Something went wrong signing you up.</p>
+        <form action="/failure" method="post">
+            <button class="form-button" type="submit">Back To Home Page</button>
+        </form>
+    </div>
+  </div>
+  <%- include("partials/footer") -%>
