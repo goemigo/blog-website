@@ -4,6 +4,8 @@ const ejs = require("ejs");
 var _ = require("lodash");
 const mongoose = require("mongoose");
 const https = require("https");
+const path = require('path');
+
 
 //connect mongoDB
 mongoose.connect("mongodb://localhost:27017/blogDB", { useNewUrlParser: true });
