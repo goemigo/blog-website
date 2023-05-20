@@ -31,11 +31,12 @@ const contactContent = "Subscribe to my newsletter";
 const app = express();
 
 app.set("view engine", "ejs");
-console.log('__dirname:', __dirname);
+// console.log('__dirname:', __dirname);
 app.set('views', path.join(__dirname, 'views'));
 
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(express.static("public"));
+// app.use(express.static("public"));
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.get("/", function (req, res) {
   // res.render("home", { home: homeStartingContent, allPosts: posts });
