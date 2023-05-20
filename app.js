@@ -29,6 +29,7 @@ const contactContent = "Subscribe to my newsletter";
 const app = express();
 
 app.set("view engine", "ejs");
+console.log('__dirname:', __dirname);
 app.set('views', path.join(__dirname, 'views'));
 
 app.use(bodyParser.urlencoded({ extended: true }));
