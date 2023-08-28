@@ -1,4 +1,4 @@
-# Blog Website with Express.js and EJS
+# Blog Website with Express.js
 
 
 This is a [blog website](https://gyokuandante.com/) built with Express.js, EJS templates, and MongoDB for data storage. The website allows users to view blog posts, compose new posts, learn about the author, and subscribe to a newsletter. It also includes a feature to interact with the Mailchimp API for email subscriptions.
